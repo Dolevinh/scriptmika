@@ -1,7 +1,7 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/Mobile%20Friendly%20Orion')))() --This Will Load The Script Code
 local Player = game.Players.LocalPlayer --This Will Reveal The Player Name
   local Window = OrionLib:MakeWindow({
-		Name = "EXAMPLE HOW TO MAKE A KEY SYSTEM FOR MOBILE",
+		Name = "Vui Lòng Nhập Key Để Trải Nghiệm Hack",
 		HidePremium = false,
 		SaveConfig = true,
 		ConfigFolder = "OrionTest",
@@ -49,7 +49,7 @@ Tab:AddButton({
             })
             wait(2)
             OrionLib:MakeNotification({
-                Name = "Key �ng!",
+                Name = "Key úng!",
                 Content = "The key you entered is Correct.",
                 Image = "rbxassetid://4483345998",
                 Time = 5
@@ -67,7 +67,7 @@ Tab:AddButton({
             })
             wait(2)
             OrionLib:MakeNotification({
-                Name = "Key Sai Vui L�ng Vt Link  Ly Key!",
+                Name = "Key Sai Vui Lòng Vt Link  Ly Key!",
                 Content = "The key you entered is incorrect.",
                 Image = "rbxassetid://4483345998",
                 Time = 5
@@ -77,9 +77,9 @@ Tab:AddButton({
 }) --This Will Check The Key You Entered
 
 Tab:AddButton({
-	Name = "Sao Ch�p Link",
+	Name = "Sao Chép Link",
 	Callback = function()
-      		setclipboard("https://vi.anotepad.com/notes/7qxjiwws") --This Will Copy The Link Of The Key
+      		setclipboard("https://web1s.pro/T5Salmythr") --This Will Copy The Link Of The Key
   	end    
 }) 
     

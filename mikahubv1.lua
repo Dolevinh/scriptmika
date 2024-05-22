@@ -2536,7 +2536,7 @@ spawn(function()
     wait(.24)
     require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Tham gia discord để cập nhật thông tin mới nhất nhé<Color=/>"):Display()
     wait(.29)
-    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Đăng ký kênh traubloxfruit để xem video mới nhất nhé<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Đăng ký kênh Vinh Modded để xem video mới nhất nhé<Color=/>"):Display()
     wait(.36)
 end)
 
